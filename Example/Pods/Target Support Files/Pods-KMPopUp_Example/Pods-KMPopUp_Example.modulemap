@@ -1,0 +1,6 @@
+framework module Pods_KMPopUp_Example {
+  umbrella header "Pods-KMPopUp_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

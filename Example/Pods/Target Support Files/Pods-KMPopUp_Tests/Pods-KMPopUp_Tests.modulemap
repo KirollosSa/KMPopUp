@@ -1,0 +1,6 @@
+framework module Pods_KMPopUp_Tests {
+  umbrella header "Pods-KMPopUp_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

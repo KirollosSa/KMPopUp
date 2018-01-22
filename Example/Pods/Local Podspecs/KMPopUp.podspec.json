@@ -1,0 +1,22 @@
+{
+  "name": "KMPopUp",
+  "version": "0.1.0",
+  "summary": "A short description of KMPopUp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kirollos Mage/KMPopUp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kirollos Mage": "kerolosmagid@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Kirollos Mage/KMPopUp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KMPopUp/Classes/**/*"
+}
