@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1AB682FCFDFDE23531489240 /* Pods-KMPopUp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMPopUp_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMPopUp_Tests/Pods-KMPopUp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1C65813FFBF2D6A9847BAB3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1C65813FFBF2D6A9847BAB3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		223F6BD3865C44B96BF900FD /* Pods-KMPopUp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMPopUp_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMPopUp_Example/Pods-KMPopUp_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		52415BE0D67E422B5052B3CA /* Pods_KMPopUp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMPopUp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* KMPopUp_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMPopUp_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* KMPopUp_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMPopUp_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		712D94E462F810DBC255BA45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		712D94E462F810DBC255BA45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8658FF2CE0240FB86B48D7A3 /* Pods-KMPopUp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMPopUp_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMPopUp_Tests/Pods-KMPopUp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96380C3FD0B4899172BE6C99 /* Pods_KMPopUp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMPopUp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C454ADBD314B7F6114847606 /* KMPopUp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KMPopUp.podspec; path = ../KMPopUp.podspec; sourceTree = "<group>"; };
+		C454ADBD314B7F6114847606 /* KMPopUp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KMPopUp.podspec; path = ../KMPopUp.podspec; sourceTree = "<group>"; };
 		FF453AC76A52C2811685ED59 /* Pods-KMPopUp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMPopUp_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMPopUp_Example/Pods-KMPopUp_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KD77A89FE6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -522,6 +523,7 @@
 			baseConfigurationReference = 223F6BD3865C44B96BF900FD /* Pods-KMPopUp_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KD77A89FE6;
 				INFOPLIST_FILE = KMPopUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -537,6 +539,7 @@
 			baseConfigurationReference = FF453AC76A52C2811685ED59 /* Pods-KMPopUp_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KD77A89FE6;
 				INFOPLIST_FILE = KMPopUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
