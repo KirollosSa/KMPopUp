@@ -24,7 +24,7 @@ pod 'KMPopUp'
 
 ## Setup
 1 - Just Add new View Controller in Main.storyboard
-2 - set Class of it "KM PopViewController" and also its identifier with the same name of Class "KM PopViewController" ."
+2 - set Class of it "KMPopViewController" and also its identifier with the same name of Class "KM PopViewController" ."
 
 ## Author
 
