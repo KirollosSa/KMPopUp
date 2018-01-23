@@ -1,5 +1,7 @@
 # KMPopUp
 
+Show Your Message in Popup Message With Duration and Image , Install this pod , you never have
+
 [![CI Status](http://img.shields.io/travis/Kirollos Mage/KMPopUp.svg?style=flat)](https://travis-ci.org/Kirollos Mage/KMPopUp)
 [![Version](https://img.shields.io/cocoapods/v/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
 [![License](https://img.shields.io/cocoapods/l/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
@@ -20,9 +22,13 @@ it, simply add the following line to your Podfile:
 pod 'KMPopUp'
 ```
 
+## Setup
+1 - Just Add new View Controller in Main.storyboard
+2 - set Class of it "KM PopViewController" and also its identifier with the same name of Class "KM PopViewController" ."
+
 ## Author
 
-Kirollos Mage, kerolosmagid@gmail.com
+Kirollos Maged, kerolosmagid@gmail.com
 
 ## License
 
