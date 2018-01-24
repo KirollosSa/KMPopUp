@@ -174,9 +174,6 @@
 		15A5A2213F831D11D721E17AA14BFB58 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		1874A569201733B90023EA66 /* KMPoUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMPoUpViewController.swift; sourceTree = "<group>"; };
 		1874A56C201733B90023EA66 /* KMPoUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMPoUp.swift; sourceTree = "<group>"; };
-		1874A570201759950023EA66 /* thumbs-up-hand-symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbs-up-hand-symbol.png"; sourceTree = "<group>"; };
-		1874A571201759950023EA66 /* thumbs-up-hand-symbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbs-up-hand-symbol@2x.png"; sourceTree = "<group>"; };
-		1874A572201759950023EA66 /* thumbs-up-hand-symbol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbs-up-hand-symbol@3x.png"; sourceTree = "<group>"; };
 		187D1EDF80EB0D8FC035AC3570D09DD5 /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
 		191A9AF37DBF5BD8CCCF809FD999AC24 /* KMPopUp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMPopUp.xcconfig; sourceTree = "<group>"; };
 		1BCD7C4F10E8CD2DCAD3B2734A26D9B0 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
@@ -367,16 +364,6 @@
 				1874A56C201733B90023EA66 /* KMPoUp.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		1874A573201759D20023EA66 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				1874A570201759950023EA66 /* thumbs-up-hand-symbol.png */,
-				1874A571201759950023EA66 /* thumbs-up-hand-symbol@2x.png */,
-				1874A572201759950023EA66 /* thumbs-up-hand-symbol@3x.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		39C194899AEEF2D2D23C58D0DBB73AD8 /* Support Files */ = {
@@ -582,7 +569,6 @@
 		D610AB1B291113184E34CC3C9197E4BD /* KMPopUp */ = {
 			isa = PBXGroup;
 			children = (
-				1874A573201759D20023EA66 /* Assets */,
 				1812C42020172FC4004290E9 /* Classes */,
 				39C194899AEEF2D2D23C58D0DBB73AD8 /* Support Files */,
 			);
