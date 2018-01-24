@@ -2,7 +2,7 @@
 //  KMPoUp.swift
 //  KMPopUp
 //
-//  Created by Kirollos Maged Sawerous on 1/23/18.
+//  Created by Kirollos Maged Youssef Sawerous on 1/23/18.
 //
 
 import Foundation
