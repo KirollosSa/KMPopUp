@@ -20,11 +20,95 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wCD-wd-JID">
+                                <rect key="frame" x="5" y="240.5" width="365" height="186"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0c-CI-WRV">
+                                        <rect key="frame" x="8" y="20" width="347" height="30"/>
+                                        <color key="backgroundColor" red="0.43782151385445789" green="0.59213486749479083" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="3mR-zJ-MtS"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Message with Duration">
+                                            <color key="titleColor" red="0.95326851858720718" green="0.99799776077490976" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="duration:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5yQ-yA-Phs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmt-wh-GeS">
+                                        <rect key="frame" x="9" y="136" width="347" height="30"/>
+                                        <color key="backgroundColor" red="0.43782151390000001" green="0.5921348675" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="uyu-Wq-qeL"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Image only">
+                                            <color key="titleColor" red="0.95326851859999995" green="0.99799776080000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Image:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Hs3-Ms-u9i"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcw-sX-LZZ">
+                                        <rect key="frame" x="9" y="78" width="347" height="30"/>
+                                        <color key="backgroundColor" red="0.43782151390000001" green="0.5921348675" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="oRl-uG-Kng"/>
+                                        </constraints>
+                                        <state key="normal" title="Show Message with tap on view">
+                                            <color key="titleColor" red="0.95326851859999995" green="0.99799776080000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="noDuration:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uu7-Ex-i4W"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.89808434303428719" green="0.92671611672301446" blue="1" alpha="0.21525638204225353" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="T0c-CI-WRV" firstAttribute="leading" secondItem="wCD-wd-JID" secondAttribute="leading" constant="8" id="0qe-YO-fzK"/>
+                                    <constraint firstItem="Rmt-wh-GeS" firstAttribute="top" secondItem="Gcw-sX-LZZ" secondAttribute="bottom" constant="28" id="6gB-uA-kh6"/>
+                                    <constraint firstItem="Gcw-sX-LZZ" firstAttribute="leading" secondItem="wCD-wd-JID" secondAttribute="leading" constant="9" id="HwY-6c-uzn"/>
+                                    <constraint firstItem="Gcw-sX-LZZ" firstAttribute="top" secondItem="T0c-CI-WRV" secondAttribute="bottom" constant="28" id="Keh-Dl-2xa"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rmt-wh-GeS" secondAttribute="trailing" constant="9" id="Ppd-jW-Ihi"/>
+                                    <constraint firstAttribute="trailing" secondItem="T0c-CI-WRV" secondAttribute="trailing" constant="10" id="Xjf-Lb-3zB"/>
+                                    <constraint firstItem="Rmt-wh-GeS" firstAttribute="leading" secondItem="wCD-wd-JID" secondAttribute="leading" constant="9" id="o9r-Cx-fbt"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gcw-sX-LZZ" secondAttribute="trailing" constant="9" id="r0E-VC-HZI"/>
+                                    <constraint firstAttribute="height" constant="186" id="sgl-nD-cew"/>
+                                    <constraint firstItem="T0c-CI-WRV" firstAttribute="top" secondItem="wCD-wd-JID" secondAttribute="top" constant="20" id="xjY-7N-VTr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wCD-wd-JID" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="5" id="BwP-T8-sxq"/>
+                            <constraint firstItem="wCD-wd-JID" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="FFQ-07-8qn"/>
+                            <constraint firstAttribute="trailing" secondItem="wCD-wd-JID" secondAttribute="trailing" constant="5" id="cNg-c5-cBG"/>
+                            <constraint firstItem="wCD-wd-JID" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="f1J-uI-Bh4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="224.80000000000001" y="139.880059970015"/>
+        </scene>
+        <!--Po Up View Controller-->
+        <scene sceneID="Ybx-Mt-Uya">
+            <objects>
+                <viewController storyboardIdentifier="KMPoUpViewController" id="JTn-11-4DS" customClass="KMPoUpViewController" customModule="KMPopUp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MSB-CI-p7Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Oh-0E-cET"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ijv-kh-WBt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ywn-Bw-TsM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1034" y="140"/>
         </scene>
     </scenes>
 </document>
