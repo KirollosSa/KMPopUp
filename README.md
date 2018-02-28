@@ -2,7 +2,8 @@
 
 Show Your Message in Popup Message With Duration and Image , Install this pod , you never have
 
-![screens](http://spreskill.com/img/1.gif)
+![screens1](http://spreskill.com/img/1.gif) ![screens2](http://spreskill.com/img/2.gif)
+
 
 
 [![CI Status](http://img.shields.io/travis/Kirollos Mage/KMPopUp.svg?style=flat)](https://travis-ci.org/Kirollos Mage/KMPopUp)
