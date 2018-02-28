@@ -29,7 +29,7 @@ pod 'KMPopUp'
 ## Setup
 1 - Just Add new View Controller in Main.storyboard
 
-2 - set 'Class' of it "KMPopViewController" and also its 'Storyboard ID' with the same name of Class "KMPopViewController" ."
+2 - And set its 'Class' with "KMPopViewController" and also its 'Storyboard ID' with the same name of Class "KMPopViewController" ."
 
 ## Usage 
 ```ruby
