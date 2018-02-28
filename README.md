@@ -7,7 +7,7 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
 
 
 
-[![CI Status](http://img.shields.io/travis/KirollosSa/KMPopUp.svg?style=flat)](https://travis-ci.org/Kirollos Mage/KMPopUp)
+[![CI Status](http://img.shields.io/travis/KirollosSa/KMPopUp.svg?style=flat)](https://travis-ci.org/KirollosSa/KMPopUp)
 [![Version](https://img.shields.io/cocoapods/v/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
 [![License](https://img.shields.io/cocoapods/l/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
 [![Platform](https://img.shields.io/cocoapods/p/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
