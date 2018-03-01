@@ -8,7 +8,9 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
 [![Platform](https://img.shields.io/cocoapods/p/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
 
 ## Screens
-![screens1](http://spreskill.com/img/1.gif) ![screens2](http://spreskill.com/img/2.gif) ![screens3](http://spreskill.com/img/3.gif)
+![screens1](http://spreskill.com/img/1.gif)
+![screens2](http://spreskill.com/img/2.gif)
+![screens3](http://spreskill.com/img/3.gif)
 
 
 ### Example
