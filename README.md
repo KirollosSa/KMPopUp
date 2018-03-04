@@ -15,13 +15,13 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
 ![screens3](http://spreskill.com/img/3.gif)
 
 
-### Example
+## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
-### Installation
+## Installation
 
 KMPopUp is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -30,12 +30,12 @@ it, simply add the following line to your Podfile:
 pod 'KMPopUp'
 ```
 
-### Setup
+## Setup
 1 - Just Add new View Controller in Main.storyboard
 
 2 - And set its 'Class' with "KMPopViewController" and also its 'Storyboard ID' with the same name of Class "KMPopViewController" ."
 
-#### Usage 
+## Usage 
 ```ruby
 import KMPopUp
 
@@ -46,7 +46,7 @@ KMPoUp.ShowMessageWithDuration(controller: self, message: "YOUR MESSAGE", image:
 KMPoUp.ShowMessage(controller: self, message: "YOUR MESSAGE", image: YOUR IMAGE ))
 ```
 
-### Author
+## Author
 
 Kirollos Maged, E-mail : kerolosmagid@gmail.com
 
