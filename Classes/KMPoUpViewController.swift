@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KMPoUpViewController: UIViewController {
+class KMPopUpViewController: UIViewController {
 
     weak var timer: Timer?
     var message: String = "Some Text"
