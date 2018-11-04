@@ -56,20 +56,20 @@ class KMPopUpViewController: UIViewController {
             self.view.addSubview(MessageImage)
             self.view.addSubview(messageLable)
             self.view.backgroundColor = UIColor.black.withAlphaComponent(Alpha)
-        }
-        if #available(iOS 9.0, *) {
-            setupLayoute()
+            if #available(iOS 9.0, *) {
+                setupLayoute()
+            }
         }
         messageLable.text = message
         showAnimate()
         if duration == 0.0 {
             self.view.addTapGesture(tapNumber: 1, target: self, action: #selector(TabAction))
-        }else if duration == -1.0 {
-            //TODO:- No Actions
-            showAnimate()
+        } else if duration == -1.0 {
+            // No Actions neither tap nor time for hide
         } else {
             if #available(iOS 10.0, *) {
                 startTimer()
+                
             }
         }
     }
@@ -142,5 +142,6 @@ extension UIView {
         tap.numberOfTapsRequired = tapNumber
         addGestureRecognizer(tap)
         isUserInteractionEnabled = true
+        
     }
 }
