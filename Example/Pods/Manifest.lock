@@ -1,5 +1,5 @@
 PODS:
-  - KMPopUp (1.1.6)
+  - KMPopUp (1.1.7)
   - Nimble (7.3.0)
   - Quick (1.2.0)
 
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KMPopUp: 4be5d385027a65c1152f92d471531d0bff984c70
+  KMPopUp: 209689b11395501676a670dd88dd59673c506d0f
   Nimble: c8d6a1f463701921c46de965c673e13cafa09196
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
