@@ -23,15 +23,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func duration(_ sender: Any) {
-        KMPoUp.ShowMessageWithDuration(controller: self, message: "Test", image: #imageLiteral(resourceName: "33"), duration: 1.0)
+        KMPopUp.ShowMessageWithDuration(self, message: "Test", image: "test", duration: 1.0)
     }
     
     
     @IBAction func noDuration(_ sender: Any) {
-        KMPoUp.ShowMessage(controller: self, message: "test", image: #imageLiteral(resourceName: "33"))
+        KMPopUp.ShowMessage(self, message: "test", image: "test")
     }
     @IBAction func Image(_ sender: Any) {
-        KMPoUp.ShowMessage(controller: self, message: "", image: #imageLiteral(resourceName: "33"))
+        KMPopUp.ShowMessage(self, message: "", image: "test")
+    }
+    
+    @IBAction func showScreenMessage(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "testVC")
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

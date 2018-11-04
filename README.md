@@ -20,6 +20,8 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+pod 'KMPopUp' , '~> 1.1.5' for swift 3
+pod 'KMPopUp' , '~> 1.1.6' for swift 4.2
 
 ## Installation
 
@@ -41,9 +43,16 @@ import KMPopUp
 
 
 // message hide with duration
-KMPoUp.ShowMessageWithDuration(controller: self, message: "YOUR MESSAGE", image: YOUR IMAGE, duration: 2.0)
+KMPopUp.ShowMessageWithDuration(controller: self, message: "YOUR MESSAGE", image: "YOUR IMAGE", duration: 2.0,withAlpha: 0.8)
 // message hide on tab
-KMPoUp.ShowMessage(controller: self, message: "YOUR MESSAGE", image: YOUR IMAGE ))
+KMPopUp.ShowMessage(controller: self, message: "YOUR MESSAGE", image: "YOUR IMAGE" ,withAlpha: 0.8)
+// message popup over screen
+KMPopUp.ShowScreenPopUp(self, message: "YOUR MESSAGE", image: "YOUR IMAGE", withAlpha: 0.8)
+
+
+//// Optional parameters
+// withAlpha is Optional parameter with default value = 0.8
+
 ```
 
 ## Author

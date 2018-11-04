@@ -8,11 +8,14 @@
 import UIKit
 
 class KMPopUpViewController: UIViewController {
-
+    
+    //MARK:- Properties
     weak var timer: Timer?
     var message: String = "Some Text"
     var duration: Double = 1.0
+    var Alpha: CGFloat = 0.8
     var messageImage = UIImage()
+    var witImage : Bool = false
     
     let MessageImage: UIImageView = {
         let imageView = UIImageView()
@@ -20,7 +23,6 @@ class KMPopUpViewController: UIViewController {
         
         return imageView
     }()
-    
     let messageLable: UILabel = {
         let lab = UILabel()
         lab.text = "Some Text"
@@ -30,66 +32,65 @@ class KMPopUpViewController: UIViewController {
         lab.translatesAutoresizingMaskIntoConstraints = false
         return lab
     }()
-    
     let button: UIButton = {
         let b = UIButton()
         b.translatesAutoresizingMaskIntoConstraints = false
         b.titleLabel?.textColor = UIColor.white
         b.backgroundColor = UIColor.gray
-//        b.titleLabel?.text = "Done"
+        //        b.titleLabel?.text = "Done"
         b.target(forAction: #selector(TabAction), withSender: nil)
         return b
     }()
     
-    
+    //MARK:- Viewcontroller Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        MessageImage.image = messageImage
-        self.view.addSubview(MessageImage)
-        self.view.addSubview(messageLable)
-        self.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
+        SetupView()
+        // Do any additional setup after loading the view.
+    }
+    
+    //MARK:- Helper Methods
+    func SetupView() {
+        if witImage {
+            MessageImage.image = messageImage
+            self.view.addSubview(MessageImage)
+            self.view.addSubview(messageLable)
+            self.view.backgroundColor = UIColor.black.withAlphaComponent(Alpha)
+        }
         if #available(iOS 9.0, *) {
             setupLayoute()
-        } else {
-            // Fallback on earlier versions
         }
-        
         messageLable.text = message
         showAnimate()
         if duration == 0.0 {
             self.view.addTapGesture(tapNumber: 1, target: self, action: #selector(TabAction))
+        }else if duration == -1.0 {
+            //TODO:- No Actions
+            showAnimate()
         } else {
             if #available(iOS 10.0, *) {
                 startTimer()
-                
-            } else {
-                // Fallback on earlier versions
             }
         }
-        // Do any additional setup after loading the view.
     }
     
     @available(iOS 9.0, *)
     func setupLayoute() {
-        
-        MessageImage.widthAnchor.constraint(equalToConstant: 230).isActive = true
-        MessageImage.heightAnchor.constraint(equalToConstant: 230).isActive = true
+        if witImage {
+            MessageImage.widthAnchor.constraint(equalToConstant: 230).isActive = true
+            MessageImage.heightAnchor.constraint(equalToConstant: 230).isActive = true
+        } else {
+            MessageImage.widthAnchor.constraint(equalToConstant: 0).isActive = true
+            MessageImage.heightAnchor.constraint(equalToConstant: 0).isActive = true
+        }
         MessageImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         MessageImage.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        
         
         messageLable.topAnchor.constraint(equalTo: MessageImage.bottomAnchor, constant: 16).isActive = true
         messageLable.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         messageLable.widthAnchor.constraint(equalToConstant: 230).isActive = true
         
     }
-    
-    @objc func TabAction() {
-        removeAnimation()
-    }
-    
-    
     
     @available(iOS 10.0, *)
     func startTimer() {
@@ -98,7 +99,6 @@ class KMPopUpViewController: UIViewController {
             self!.removeAnimation()
         }
     }
-    
     
     func stopTimer() {
         timer?.invalidate()
@@ -127,17 +127,20 @@ class KMPopUpViewController: UIViewController {
             }
         }
     }
-
+    
+    //MARK:- Actions
+    @objc func TabAction() {
+        removeAnimation()
+    }
+    
 }
 
+// MARK:- Tab Action Extension
 extension UIView {
-    
     func addTapGesture(tapNumber : Int, target: Any , action : Selector) {
-        
         let tap = UITapGestureRecognizer(target: target, action: action)
         tap.numberOfTapsRequired = tapNumber
         addGestureRecognizer(tap)
         isUserInteractionEnabled = true
-        
     }
 }

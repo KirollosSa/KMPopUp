@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## KMPopUp
 
-Copyright (c) 2018 Kirollos Mage <kerolosmagid@gmail.com>
+Copyright (c) 2018 Kirollos Maged Youssef Sawerous<kerolosmagid@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
