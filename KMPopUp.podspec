@@ -26,13 +26,13 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kirollos Maged' => 'kerolosmagid@gmail.com' }
   s.source           = { :git => 'https://github.com/KirollosSa/-KMPopUp.git', :branch => "master", :tag => s.version.to_s }
-  s.swift_version = '>= 4.2'
+ 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   
-  
+   s.swift_version    = '4.2'
   s.source_files = 'KMPopUp/Classes/**/*'
 
 
