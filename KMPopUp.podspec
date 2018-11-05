@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KMPopUp'
-  s.version          = '1.1.9'
+  s.version          = '1.2.0'
   s.summary          = 'Show Your Message in Popup Message With Duration and Image .'
 
 # This description is used to generate tags and improve search results.
@@ -26,10 +26,12 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kirollos Maged' => 'kerolosmagid@gmail.com' }
   s.source           = { :git => 'https://github.com/KirollosSa/-KMPopUp.git', :branch => "master", :tag => s.version.to_s }
+  s.swift_version = '>= 3.2, <= 4.2'
+  s.source_files = '**/*.swift'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+
   
   
   s.source_files = 'KMPopUp/Classes/**/*'
