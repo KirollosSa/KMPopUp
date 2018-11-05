@@ -29,7 +29,9 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  
+  
   s.source_files = 'KMPopUp/Classes/**/*'
 
 
