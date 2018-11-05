@@ -40,7 +40,7 @@ pod 'KMPopUp' , '~> 1.2.0' // for swift 4.2
 2 - And set its 'Class' with "KMPopViewController" and also its 'Storyboard ID' with the same name of Class "KMPopViewController" ."
 
 ## Usage 
-```ruby
+```swift
 import KMPopUp
 
 
