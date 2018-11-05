@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KMPopUp'
-  s.version          = '1.1.7'
+  s.version          = '1.1.8'
   s.summary          = 'Show Your Message in Popup Message With Duration and Image .'
 
 # This description is used to generate tags and improve search results.

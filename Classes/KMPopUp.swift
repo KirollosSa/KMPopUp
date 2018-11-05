@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 public class KMPopUp {
     //MARK:- this method for message which hide in custom interval time
