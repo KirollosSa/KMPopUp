@@ -43,6 +43,8 @@ pod 'KMPopUp' , '~> 1.2.0' // for swift 4.2
 ```swift
 import KMPopUp
 
+// Optional parameters
+// 'withAlpha' is optional parameter with default value = 0.8
 
 // message hide with duration
 KMPopUp.ShowMessageWithDuration(controller: self, message: "YOUR MESSAGE", image: "YOUR IMAGE", duration: 2.0,withAlpha: 0.8)
@@ -55,8 +57,7 @@ KMPopUp.ShowScreenPopUp(self, message: "YOUR MESSAGE", image: "YOUR IMAGE", with
 
 
 ```
-// Optional parameters
-// withAlpha is Optional parameter with default value = 0.8
+
 
 ## Author
 
