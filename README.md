@@ -20,8 +20,7 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 # Requirements
-### pod 'KMPopUp' , '~> 1.1.5' for swift 3.2
-### pod 'KMPopUp' , '~> 1.2.0' for swift 4.2
+
 
 ## Installation
 
@@ -30,6 +29,9 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'KMPopUp'
+
+pod 'KMPopUp' , '~> 1.1.5' // for swift 3.2
+pod 'KMPopUp' , '~> 1.2.0' // for swift 4.2
 ```
 
 ## Setup
