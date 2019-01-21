@@ -8,7 +8,7 @@ Show Your Message in Popup Message With Duration and Image , Install this pod , 
 [![Platform](https://img.shields.io/cocoapods/p/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
 
 ## Screens
-[linkname](https://youtu.be/Pwvm9L0p2G0)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Pwvm9L0p2G0/0.jpg)](https://www.youtube.com/watch?v=Pwvm9L0p2G0)
 
 
 ## Example
