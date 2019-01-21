@@ -15,10 +15,10 @@ View your message in a simple and easy to use way 🎉
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-# Requirements
+# Requirements 
 
 
-## Installation
+## Installation 
 
 KMPopUp is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -30,7 +30,7 @@ pod 'KMPopUp' , '~> 1.1.5' // for swift 3.2
 pod 'KMPopUp' , '~> 1.2.0' // for swift 4.2
 ```
 
-## Setup
+## Setup ✋
 1 - Just Add new View Controller in Main.storyboard
 
 2 - And set its 'Class' with "KMPopViewController" and also its 'Storyboard ID' with the same name of Class "KMPopViewController" ."
