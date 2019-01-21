@@ -10,7 +10,7 @@ View your message in a simple and easy to use way 🎉
 ## Screens
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Pwvm9L0p2G0/0.jpg)](https://www.youtube.com/watch?v=Pwvm9L0p2G0)
 
-[![Demo Doccou alpha](https://gph.is/2RC0fFb)](https://youtu.be/Pwvm9L0p2G0)
+[![Demo Doccou alpha](https://media.giphy.com/media/1qWloKKLPUdvsL6ocO/giphy.gif)](https://www.youtube.com/watch?v=Pwvm9L0p2G0)
 
 ## Example
 
