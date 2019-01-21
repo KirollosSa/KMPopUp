@@ -1,6 +1,6 @@
 # KMPopUp
 
-Show Your Message in Popup Message With Duration and Image , Install this pod , you never have
+View your message in a simple and easy to use way 🎉
 
 [![CI Status](http://img.shields.io/travis/KirollosSa/-KMPopUp.svg?style=flat)](https://travis-ci.org/KirollosSa/-KMPopUp)
 [![Version](https://img.shields.io/cocoapods/v/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
@@ -57,8 +57,8 @@ KMPopUp.ShowScreenPopUp(self, message: "YOUR MESSAGE", image: "YOUR IMAGE", with
 
 ## Author
 
-Kirollos Maged, E-mail : kerolosmagid@gmail.com
+Kirollos Maged, E-mail : kerolosmagid@gmail.com 😊
 
 #### License
 
-KMPopUp is available under the MIT license. See the LICENSE file for more info.
+KMPopUp is available under the MIT license. See the LICENSE file for more info. 
