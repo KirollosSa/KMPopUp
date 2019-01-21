@@ -7,7 +7,7 @@ View your message in a simple and easy to use way 🎉
 [![License](https://img.shields.io/cocoapods/l/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
 [![Platform](https://img.shields.io/cocoapods/p/KMPopUp.svg?style=flat)](http://cocoapods.org/pods/KMPopUp)
 
-## Screens
+## 📱📱
 [![Demo Doccou alpha](https://media.giphy.com/media/1qWloKKLPUdvsL6ocO/giphy.gif)](https://www.youtube.com/watch?v=Pwvm9L0p2G0)
 
 ## Example
